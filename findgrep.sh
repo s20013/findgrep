@@ -6,3 +6,4 @@ if [ -z "$directory" ]; then
 	directory='_'
 fi
 find "$directory" -type f | xargs grep -nH "$pattern"
+
